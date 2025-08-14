@@ -4,3 +4,6 @@ require("config.options")
 
 -- Set up lazy.nvim for plugin management.
 require("config.lazy")
+
+-- Key mappings.
+require("config.keymaps")
