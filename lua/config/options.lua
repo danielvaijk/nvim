@@ -1,3 +1,7 @@
+-- Shell.
+vim.o.shell = "/bin/zsh"
+vim.o.shellcmdflag = "-i -c"
+
 -- Leader keys.
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
