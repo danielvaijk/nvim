@@ -12,9 +12,9 @@ vim.opt.relativenumber = true -- Show relative line numbers.
 
 -- Indentation.
 vim.opt.expandtab = true -- Convert Tab key presses to spaces.
-vim.opt.shiftwidth = 4 -- Number of spaces for each identation level.
-vim.opt.tabstop = 4 -- How many columns a \t character displays as.
-vim.opt.softtabstop = 4 -- How many columns the Tab key inserts/deletes.
+vim.opt.shiftwidth = 2 -- Number of spaces for each identation level.
+vim.opt.tabstop = 2 -- How many columns a \t character displays as.
+vim.opt.softtabstop = 2 -- How many columns the Tab key inserts/deletes.
 vim.opt.autoindent = true -- New lines inherit indentation from the previous line.
 vim.opt.smartindent = true -- Automatically indent after { and other code structures.
 
