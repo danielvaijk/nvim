@@ -2,8 +2,6 @@
 -- This should be set up before loading plugins.
 require("config.options")
 
--- Set up lazy.nvim for plugin management.
 require("config.lazy")
-
--- Key mappings.
 require("config.keymaps")
+require("config.diagnostics")
