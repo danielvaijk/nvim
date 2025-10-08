@@ -13,7 +13,23 @@ return {
       },
     })
 
+    vim.lsp.config("gopls", {
+      settings = {
+        gopls = {
+          analyses = {
+            -- Report unused function parameters
+            unusedparams = true,
+          },
+          -- Run staticcheck, a popular Go linter, for additional code quality checks
+          staticcheck = true,
+          -- Use gofumpt for formatting (stricter version of gofmt with additional style rules)
+          gofumpt = true,
+        },
+      },
+    })
+
     vim.lsp.enable("ts_ls")
     vim.lsp.enable("lua_ls")
+    vim.lsp.enable("gopls")
   end,
 }
