@@ -2,10 +2,15 @@
 # Required for Telescope's live_grep.
 brew install ripgrep
 
-# Required language servers.
+# JavaScript/TypeScript
 brew install typescript-language-server
+
+# Lua
 brew install lua-language-server
 
+# Golang
 brew install go
-go install golang.org/x/tools/gopls@latest
+brew install gopls
+brew install gofumpt
+brew install goimports
 ```
