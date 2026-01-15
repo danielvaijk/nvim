@@ -1,9 +1,10 @@
 local telescope = require("telescope.builtin")
 
 -- File operations.
-vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Save file" })
+vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Write buffer" })
 vim.keymap.set("n", "<leader>q", "<cmd>q<cr>", { desc = "Quit" })
-vim.keymap.set("n", "<leader>wq", "<cmd>wq<cr>", { desc = "Save file and quit" })
+vim.keymap.set("n", "<leader>wq", "<cmd>wq<cr>", { desc = "Write buffer and quit" })
+vim.keymap.set("n", "<leader>wa", "<cmd>wa<cr>", { desc = "Write all changed buffers" })
 
 -- Telescope.
 vim.keymap.set("n", "<leader>ff", telescope.find_files, { desc = "Telescope find files" })
