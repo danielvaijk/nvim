@@ -1,5 +1,6 @@
 # nvim
 brew "nvim"
+brew "tree-sitter-cli"
 
 # nvim-telescope (live_grep)
 brew "ripgrep"
