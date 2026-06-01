@@ -12,6 +12,10 @@ vim.g.loaded_perl_provider = 0 -- Disable Perl provider
 vim.g.loaded_python3_provider = 0 -- Disable Python 3 provider
 vim.g.loaded_ruby_provider = 0 -- Disable Ruby provider
 
+-- File explorer.
+vim.g.loaded_netrw = 1 -- Disable netrw in favor of nvim-tree.
+vim.g.loaded_netrwPlugin = 1 -- Disable netrw's plugin loader.
+
 -- Line numbers.
 vim.opt.number = true -- Show line numbers.
 vim.opt.relativenumber = true -- Show relative line numbers.
