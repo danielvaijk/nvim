@@ -4,6 +4,13 @@ return {
   lazy = false,
   build = ":TSUpdate",
   config = function()
+    -- Use C++ highlighting for Metal shaders.
+    vim.filetype.add({
+      extension = {
+        metal = "cpp",
+      },
+    })
+
     require("nvim-treesitter").install({
       -- Programming languages.
       "javascript",
